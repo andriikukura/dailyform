@@ -109,6 +109,11 @@ input[type=password] {
 	/*position: relative;
 	z-index: 0;*/
 	border-bottom: 3px solid #bd1962;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	cursor: pointer;
+	outline: 0;
 }
 
 /*.ba-button:after {

@@ -26,11 +26,14 @@
 					<h1 class="ba-form__title">Create your free account</h1>
 					<p class="ba-form__text">Come and join our cool and amazing community, fill in your details
 					to get started. Already have an account? <a href="#">Log in.</a></p>
+					<form action="post">
 					<input class="firstname" type="text" placeholder="First name">
 					<input class="lastname" type="text" placeholder="Last name">
-					<input class="email" type="email" placeholder="Email address">
-					<input class="pass" type="password" placeholder="Password">
-					<a href="#" class="ba-button">Sign up for free</a>
+					<input class="email" type="email" placeholder="Email address" required>
+					<input class="pass" type="password" placeholder="Password" required>
+					<button type="submit" class="ba-button">Sign up for free</button>
+					</form>
+					<!-- <a href="#" class="ba-button">Sign up for free</a> -->
 					<p class="copyright">By clicking on “Sign up for free”, you agree to the <a href="#">Terms of Service</a> and 
 					the <a href="#">Privacy Policy</a></p>
 				</div>
